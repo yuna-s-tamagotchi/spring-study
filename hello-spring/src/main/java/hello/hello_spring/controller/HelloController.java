@@ -48,7 +48,7 @@ public class HelloController {
     }
 
 
-    @GetMapping("spring")   //유나선생님
+    @GetMapping("spring")   //유나 선생님
     public String dallae(@RequestParam("data") String name, Model model) {
         model.addAttribute("name", name);
         return "dallae";
